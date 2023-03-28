@@ -1,0 +1,64 @@
+<!-- Rafael Ataide e Moura - 1230111071 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<link rel="stylesheet" href="style/Contato.css">
+<body>
+<main>
+
+    <fieldset class="fieldset2">
+        <legend id="indice1"><strong>Índice</strong></legend>
+        <section class="linkshead">
+            <a href="Index.html" class="botao" id="geral"><button>Info Geral</button></a>
+            <a href="Curriculo.html" class="botao" id="curriculo"><button>Currículo</button></a>
+            <a href="Portifolio.html" class="botao" id="portifolio"><button>Portifólio</button></a>
+            <a href="Novidades.html" class="botao" id="novidades"><button>Novidades</button></a>
+            <a href="Contato.html" class="botao" id="contato"><button>Contatos</button></a>
+        </section></fieldset>
+    
+    <h1>Contate-me:</h1>
+    <form action="Contato_enviado.html" method="get" autocomplete="off">
+    <fieldset>
+        <legend><strong>Dados de contato</strong></legend>
+        <p>
+            <label for="nom">Nome completo:</label>
+            <input type="text" name="nom" id="nom" required minlength="3" maxlength="30" size="30"
+            autocomplete="nom">
+        </p>
+        <p>
+            <label for="ema">E-mail:</label>
+            <input type="email" name="ema" id="ema" required minlength="8" maxlength="45" size="41"
+            autocomplete="ema">
+        </p>
+        <p>
+            <label for="cel">Celular:</label>
+            <input type="tel" name="cel" id="cel" pattern="[0-9]{3}[0-9]{4}-[0-9]{4}" required minlength="8" maxlength="15" placeholder="(DDD)0000-0000">
+        
+            <label for="ida">Idade:</label>
+            <input type="number" name="ida" id="ida" min="1" max="99">
+        </p>
+        <p class="botão3"><input type="submit" value="Enviar" id="botaoenviar"> <input type="reset" value ="Limpar"id="botaolimpar"></p>
+
+    </fieldset></Form><br>
+    
+    <h3 class="azul" id="redes">Redes sociais:</h3>
+    <div id="fale">
+                    
+        <a href="https://wa.me/3333333333333" target="_blank"><img src="img/whatsapp.png" class="iconn"></a>
+        <a href="https://twitter.com/ProjetoPessoal1" target="_blank"><img src="img/Twitter-icon.png" class="iconn"></a>
+        <a href="https://www.facebook.com/profile.php?id=100091486323452" target="_blank"><img src="img/social-facebook-button-blue-icon.png" class="iconn"></a>
+        <a href="https://www.instagram.com/instagram" target="_blank"><img src="img/instagram-icon.png" class="iconn"></a>
+      </div>
+
+            <a href="Novidades.html"><button id="botão1">Página anterior</button>
+    
+            <a href="Index.html"><button id="botão2">Página inicial</button>
+        
+    </main>
+</body>
+</html>

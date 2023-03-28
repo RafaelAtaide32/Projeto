@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(122, 196, 192);
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    margin: 70px auto;
+    padding: 50px;
+    border-radius: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(54, 110, 108);
+    text-align: center;
+    font-size: 2.3em;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.63);
+   
+}
+
+li {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+img {
+    width: 450px;
+    margin: 25px;
+    border-radius: 16px;
+}
+
+#botão1{
+    background-color: rgb(122, 196, 192);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    width: 40%;
+    font-size: 1.7em;
+    border-radius: 16px;
+}
+
+#botão1:hover{
+    background-color: rgb(97, 163, 159);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    font-size: 1.7em;
+    border-radius: 16px;
+}
+
+#botão2{
+    background-color: rgb(122, 196, 192);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    width: 40%;
+    font-size: 1.7em;
+    border-radius: 16px;
+    float: right;
+}
+
+#botão2:hover{
+    background-color: rgb(97, 163, 159);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    font-size: 1.7em;
+    border-radius: 16px;
+}
+
+.paginas {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0;
+    align-items: center;
+}
+
+
+fieldset {
+    border-radius: 16px;
+    text-align: center;
+    word-spacing: 10px;
+    height: 65px;
+}
+
+legend {
+    background-color: rgba(102, 164, 161, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgba(102, 164, 161, 0.7);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: rgb(122, 196, 192);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button {
+    background-color:rgba(102, 164, 161, 0.7);
+}

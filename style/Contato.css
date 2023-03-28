@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(122, 196, 192);
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    margin: 70px auto;
+    padding: 50px;
+    border-radius: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(54, 110, 108);
+    text-align: center;
+    font-size: 2.3em;
+}
+fieldset {
+    border-radius: 16px;
+    height: 200px;
+}
+
+legend {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(102, 164, 161, 0.7);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.63);
+   
+}
+
+li {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+img {
+    width: 1px;
+    margin: 25px auto;
+    border-radius: 16px;
+}
+
+#botão1{
+    background-color: rgb(122, 196, 192);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    width: 40%;
+    font-size: 1.7em;
+    border-radius: 16px;
+}
+
+#botão1:hover{
+    background-color: rgb(97, 163, 159);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    font-size: 1.7em;
+    border-radius: 16px;
+}
+
+#botão2{
+    background-color: rgb(122, 196, 192);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    width: 40%;
+    font-size: 1.7em;
+    border-radius: 16px;
+    float: right;
+   
+}
+
+#botão2:hover{
+    background-color: rgb(97, 163, 159);
+    color: white;
+    border: 0px;
+    padding: 20px;
+    font-size: 1.7em;
+    border-radius: 16px;
+}
+
+.iconn {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+  }
+
+  #redes {
+    text-align: center;
+  }
+  
+  h3 {
+    color: rgb(54, 110, 108);
+    
+   
+}
+#fale {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+#botaoenviar:hover {border-radius: 16px; border: 1px;;color: rgb(0, 0, 0);padding:6px;background-color: rgba(122, 196, 192, 0.692);
+  }
+
+  #botaoenviar {border-radius: 16px; border:0;color: rgba(0, 0, 0, 0.63);padding:4px; background-color: rgba(122, 196, 192, 0.692)}
+
+  #botaolimpar:hover {border-radius: 16px; border: 1px;;color: rgb(0, 0, 0);padding:6px;background-color: rgba(122, 196, 192, 0.692);
+  }
+
+  #botaolimpar {border-radius: 16px; border:0;color: rgba(0, 0, 0, 0.63);padding:4px; background-color: rgba(122, 196, 192, 0.692)}
+
+  
+
+
+  .fieldset2 {
+    border-radius: 16px;
+    text-align: center;
+    word-spacing: 10px;
+    height: 65px;
+}
+
+legend {
+    background-color: rgba(102, 164, 161, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgba(102, 164, 161, 0.7);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: rgb(122, 196, 192);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button {
+    background-color:rgba(102, 164, 161, 0.7);
+}
+
+  input[type="number"] {
+    width: 64px;
+  }
+
+#fale {width: 530px; 
+}
